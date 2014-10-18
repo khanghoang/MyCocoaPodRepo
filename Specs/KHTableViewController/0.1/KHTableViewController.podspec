@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/khanght"
   
   s.dependency "AFNetworking"
-  s.ios.deployment_target = '6.0'
+  s.platform = :iosm, "6.0"
 end
