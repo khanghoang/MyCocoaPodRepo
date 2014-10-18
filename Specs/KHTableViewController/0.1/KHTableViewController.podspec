@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   
   s.dependency "AFNetworking"
   s.dependency "LBDelegateMatrioska"
+  s.dependency "AWPagedArray"
   s.platform = :ios, "6.0"
 end
