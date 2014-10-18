@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Khang Hoang' => 'hoangtrieukhang@gmail.com' }
   s.source       = { :git => 'https://github.com/khanghoang/KHTableViewController.git', :tag => '0.1' }
-  s.source_files = 'Classes/**/*.{h,m}'
+  s.source_files = 'KHTableViewController/*'
   s.frameworks   = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.social_media_url   = "https://twitter.com/khanght"
