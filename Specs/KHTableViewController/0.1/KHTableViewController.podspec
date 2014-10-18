@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/khanght"
   
   s.dependency "AFNetworking"
+  s.dependency "LBDelegateMatrioska"
   s.platform = :ios, "6.0"
 end
