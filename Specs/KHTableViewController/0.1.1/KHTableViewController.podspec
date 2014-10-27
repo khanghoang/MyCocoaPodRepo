@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'KHTableViewController'
-  s.version      = '0.1.1""
+  s.version      = '0.1.1'
   s.summary      = 'Support fluent or order TableView|CollectionView loading'
   s.homepage     = 'nssubject.com'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
