@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name         = 'KHTableViewController'
   s.version      = '0.1.1'
   s.summary      = 'Support fluent or order TableView|CollectionView loading'
-  s.homepage     = 'nssubject.com'
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage     = 'http://nssubject.com'
+  s.license      = 'MIT'
   s.author       = { 'Khang Hoang' => 'hoangtrieukhang@gmail.com' }
-  s.source       = :git => 'https://github.com/khanghoang/KHTableViewController.git', :tag => '0.1.1'
+  s.source       = {:git => 'https://github.com/khanghoang/KHTableViewController.git', :tag => '0.1.1'}
   s.source_files = "KHTableViewController/Classes/*", "KHTableViewController/Classes/**/*.{h,m,xib}"
   s.frameworks   = 'Foundation', 'UIKit'
   s.requires_arc = true
